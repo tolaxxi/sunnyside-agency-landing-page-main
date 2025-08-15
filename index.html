@@ -18,9 +18,9 @@
     <script type="module" src="/src/main.js"></script>
     <title>sunny side agency</title>
   </head>
-  <body class="">
+  <body class="overflow-hidden">
     <main
-      class="h-dvh w-full bg-[url(/images/mobile/image-header.jpg)] bg-cover bg-center bg-no-repeat md:bg-[url(/images/desktop/image-header.jpg)]"
+      class="h-dvh w-full bg-[url(/images/mobile/image-header.jpg)] bg-cover bg-bottom bg-no-repeat sm:bg-[url(/images/desktop/image-header.jpg)]"
     >
       <header class="font-Barlow flex h-20 w-full justify-center">
         <nav
@@ -35,7 +35,7 @@
           </button>
 
           <ul
-            class="text-neutral-Grey-400 md:text-neutralWhite absolute top-20 left-[50%] flex h-60 w-xs translate-x-[-50%] flex-col items-center justify-between rounded-2xl bg-white py-10 text-sm font-semibold md:static md:flex md:h-full md:w-auto md:translate-x-0 md:flex-row md:gap-7 md:bg-transparent md:text-lg"
+            class="text-neutral-Grey-400 md:text-neutralWhite absolute top-20 left-[50%] z-50 hidden h-60 w-xs translate-x-[-50%] flex-col items-center justify-between rounded-2xl bg-white py-10 text-sm font-semibold md:static md:flex md:h-full md:w-auto md:translate-x-0 md:flex-row md:gap-7 md:bg-transparent md:text-lg"
             id="nav-menu"
           >
             <li><a href="#">About</a></li>
@@ -51,6 +51,22 @@
           </ul>
         </nav>
       </header>
+
+      <section class="relative h-dvh w-full">
+        <h1
+          class="font-Fraunces absolute top-[20%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-5xl font-bold tracking-widest text-white sm:top-[12%] md:top-[15%] md:text-6xl md:text-nowrap"
+        >
+          WE ARE CREATIVES
+        </h1>
+        <img
+          src="./public/images/icon-arrow-down.svg"
+          alt=""
+          class="absolute top-[49%] left-[50%] h-40 translate-x-[-50%] translate-y-[-50%] sm:top-[42%] lg:top-[32%] md:top-[46%] md:h-20"
+        />
+      </section>
     </main>
+    <section class="">
+      
+    </section>
   </body>
 </html>
